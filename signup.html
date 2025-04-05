@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-UA-compatible" content="IE=edge" />
+        <title>MeraShop</title>
+        <meta name="description" content="" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="signup.css">
+        <link rel="icon" type="image/x-icon" href="/icon.png">
+    </head>
+    <body>
+        <nav>
+            <div class="brand">
+                <a href="/">MeraShop</a>
+            </div>
+            <div class="nav-items">
+                <a href="/">Home</a>
+                <a href="/login.html">Login</a>
+                <a href="/signup.html">Signup</a>
+            </div>
+        </nav>
+
+
+
+        <form class="container">
+            <h1>Signup</h1>
+          <label>Fisrt Name</label>
+          <input type="text" id="fname" placeholder="Fisrt Name">
+          <br/>
+          <label>Last Name</label>
+          <input type="text" id="lname" placeholder="Last Name">
+          <br/>
+          <label>Email</label>
+          <input type="email" id="email" placeholder="Email">
+          <br/>
+          <label>Password</label>
+          <input type="password" id="password" placeholder="Password">
+          <br/>
+          <label>Confirm Password</label>
+          <input type="confirmpassword" id="confirmpassword" placeholder="confirm Password">
+          <br/>
+          <button id="signup">Signup</button>
+          <p id="error"></p>
+          <p id="success"></p>
+        </form>
+        <script src="./signup.js"></script>
+    </body>
+</html>

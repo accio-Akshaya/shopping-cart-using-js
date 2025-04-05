@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+body{
+    font-family: Arial, sans-serif;
+    margin: 0%;
+}
+
+nav{
+    width: 1220px;
+    height: 70px;
+    background-color: black;
+}
+
+h2{
+    margin: 0%;
+    width:314px;
+    height: 77px;
+    font-size: 40px;
+    margin-top: 10px;
+    font-weight: 700;
+    letter-spacing: 0%;
+    margin-left: 460px;
+}
+
+input{
+    display: block;
+    width: 1153px;
+    margin: 10px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+a{
+    Width:164px;
+    Height: 40px;
+    display: flex;
+    text-decoration: none;
+    color: white;
+    align-items: center;
+    padding: 10px;
+    line-height: 50px;
+    padding-left: 10px;
+}
+nav{
+    height: 50px;
+    background-color: black;
+}
+
+button{
+    display: block;
+    background: black;
+    width: 216px;
+    height: 46px;
+    font-weight: 400;
+    font-size: 15px;
+    margin: 20px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(34, 33, 33);
+}

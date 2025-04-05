@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+body{
+    margin: 0;
+    background-image: url("undraw_web_shopping_re_owap\ 1.jpg");
+    margin-bottom: 40px;
+    background-repeat: no-repeat;
+    background-position-x: right ;
+    background-size: 790px;
+    
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    position: sticky;
+    z-index:100;
+    height: 25px;
+    top: 0;
+    background-color: black;
+    border-bottom: 1px solid white;
+    padding: 1rem;
+    font-size: 1rem;
+}
+nav .brand{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+nav .nav-items a{
+    margin: 0 1rem;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.content{
+    align-items: left;
+    margin-top: 0%;
+    margin: 30px;
+    width: 500px;
+    font-weight: 700;
+    font-size: xx-large;
+    font-style: bold;
+}
+button{
+    background-color: black;
+    color: white;
+    justify-content: space-between;
+    border: 1px solid black;
+    gap: 20px;
+    width: 120px;
+    height: 40px;
+}
+
+button:hover{
+    background-color: rgb(34, 33, 33);
+}
+
